@@ -1,3 +1,3 @@
-# Mod Template
+# Clojure Example Mod
 
-README goes here
+An example mod set up with Architectury and ClojureWrapper

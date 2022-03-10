@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "mod_template",
+  "id": "clojure_example_mod",
   "version": "${version}",
-  "name": "Mod Template",
+  "name": "Clojure Example Mod",
   "description": "Description",
   "authors": [
     "Luke Bemish"
   ],
   "contact": {
-    "sources": "https://github.com/lukebemish/mod_template"
+    "sources": "https://github.com/lukebemish/clojure_example_mod"
   },
-  "license": "LGPL v3",
+  "license": "Insert License Here",
   "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "clojureloader",
-        "value": "modtemplate.common/init"
+        "value": "clojureexamplemod.common/init"
       }
     ]
   },
   "depends": {
     "fabric": "*",
     "minecraft": ">=1.18",
-    "architectury": ">=3.4.9"
+    "clojurewrapper": ">=0.1.0"
   }
 }

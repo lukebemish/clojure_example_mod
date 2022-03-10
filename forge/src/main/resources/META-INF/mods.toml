@@ -1,36 +1,36 @@
 modLoader = "clojureloader"
 loaderVersion = "[0.0.1,)"
-issueTrackerURL = "https://github.com/lukebemish/mod_template/issues"
-license = "LGPL v3"
+issueTrackerURL = "https://github.com/lukebemish/clojure_example_mod/issues"
+license = "Insert License Here"
 
 [[mods]]
-modId = "mod_template"
-clojure = "modtemplate.common/init"
+modId = "clojure_example_mod"
+clojure = "clojureexamplemod.common/init"
 version = "${version}"
-displayName = "Mod Template"
+displayName = "Clojure Example Mod"
 authors = "Luke Bemish"
 description = '''
 Description here
 '''
 # logoFile = "icon.png"
 
-[[dependencies.mod_template]]
+[[dependencies.clojure_example_mod]]
 modId = "forge"
 mandatory = true
 versionRange = "[38,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.mod_template]]
+[[dependencies.clojure_example_mod]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.18,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.mod_template]]
-modId = "architectury"
+[[dependencies.clojure_example_mod]]
+modId = "clojurewrapper"
 mandatory = true
-versionRange = "[3.3.7,)"
+versionRange = "[0.1.1,)"
 ordering = "AFTER"
 side = "BOTH"

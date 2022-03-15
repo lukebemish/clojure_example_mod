@@ -32,7 +32,8 @@
      :registries
      {:items
       {(util/resource-location modid "test_item")
-       #(proxy [Item] [(item/item-properties {:tab CreativeModeTab/TAB_MISC})]
+       #(proxy [Item] [(doto (Item$Properties.)
+                         (.tab CreativeModeTab/TAB_MISC))]
           (isFoil [is] true))
        }}
      }))
